@@ -10,18 +10,23 @@
 </head>
 <body>
   <header class="topheader">
-    <nav>
-      <button class="menu"><i class="fas fa-bars fa fa-2x"></i></button>
-      <a href="https://www.nytimes.com/section/science/space">Space & Cosmos</a>
+    <nav class="nav-bar">
+      <section class="menu">
+        <button class="menu-button"><i class="fas fa-bars fa fa-lg"></i></button>
+        <button class="menu-button"><i class="fa fa-search fa-lg"></i></button>
+        <a href="https://www.nytimes.com/section/science/space">Space & Cosmos</a>        
+      </section>
       <img class="logo" src="images/nytlogo.png"/>
-      <button class="user-icon"><i class="fas fa-user fa fa-2x"></i></button>
-      <a href="https://www.nytimes.com/subscription?campaignId=797YR" class="subscribe">SUBSCRIBE NOW</a>
-      <a href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi" class="login">LOG IN</a>
+      <section class="account">
+        <button class="user-icon"><i class="fas fa-user fa fa-lg"></i></button>
+        <button class="nav-button" onclick="location.href='https://www.nytimes.com/subscription?campaignId=797YR'">SUBSCRIBE</button>
+        <button class="nav-button" onclick="location.href='https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi'">LOG IN</button>
+      </section>
     </nav>
 
   </header>
 
-  <article>
+  <article class="main-article">
     <header>
       <h1>
         <span>Space Ripples Reveal</span>
