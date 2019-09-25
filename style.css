@@ -8,7 +8,7 @@
 
 .header-img {
   width: auto;
-  max-width: 100vw;
+  max-width: 80vw;
 }
 
 .nav-bar {
@@ -115,7 +115,20 @@
 }
 
 .main-article header {
-  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.title {
+  display: block;
+  width: 50%;
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
+.main-article header .reference {
+  margin-left: 0;
 }
 
 .main-article footer {
@@ -265,6 +278,48 @@
   height: 200px;
 }
 
-.bottom-bar{
-  margin-top: 100px;
+.bottom-bar header a {
+  float: right;
+}
+
+.bottom-option {
+  font-family: nyt-franklin;
+  font-weight: bold;
+  font-size: 13px;
+  border-top: solid 1px grey;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bottom-option.last {
+  border-bottom: solid 1px grey;
+}
+
+.copyright {
+  display: block;
+  min-width: 200px;
+  width: 20%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: grey;
+}
+
+.copyright:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: grey;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
