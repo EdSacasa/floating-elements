@@ -49,10 +49,37 @@
     cursor: pointer;
 }
 
-.menu-links a{
+.menu-links a {
     font-size: 12px;
 }
 
-.main-article{
+.main-article {
   margin-top: 50px;
+}
+
+.main-article h2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.video {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.reference {
+  display: block;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.paragraph {
+  width: 60%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.article-details {
+  width: 60%;
+  margin: 0 auto;
 }
