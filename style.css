@@ -6,13 +6,42 @@
 
 }
 
+.header-img{
+
+  width: 700px;
+  height: 400px;
+}
+
 .nav-bar {
   border-bottom: 1px #D8D8D8 solid;
   background: white;
+  height: 40px;
+}
+
+.author a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-buttom {
+  background-color: #3c70a4;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  margin-top: 8px;
+
+}
+
+.publish-date{
+  font-weight: bold;
+  font-family: serif;
 }
 
 .menu {
   float: left;
+  margin-top: 8px;
 }
 
 .menu a {
@@ -32,6 +61,7 @@
 .logo {
   width: 200px;
   margin: 0 auto;
+  margin-top: 4px;
 }
 
 .account {
@@ -41,6 +71,23 @@
 .user-icon {
   border: none;
   background: transparent;
+}
+
+.social-buttom{
+  background-color: #eaeaea;
+  border-radius: 50%;
+  border: none;
+  padding:5px;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-right: 9px;
+}
+
+.social-buttom:hover{
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
 }
 
 .menu-button {
@@ -55,22 +102,30 @@
 
 .main-article {
   margin-top: 50px;
+  display: block;
 }
 
 .main-article h2 {
   width: 60%;
   margin: 0 auto;
+
 }
 
 .video {
   width: 60%;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .reference {
   display: block;
   width: 60vw;
   margin: 0 auto;
+  font-size: 12px;
+  float: left;
+  color: #696464;
+  font-family: serif;
+  margin-bottom: 20px;
 }
 
 .paragraph {
@@ -80,6 +135,9 @@
 }
 
 .article-details {
+  display: inline-block;
   width: 60%;
   margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
