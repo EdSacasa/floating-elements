@@ -39,8 +39,10 @@
   border: none;
   font-weight: bold;
   color: white;
-  margin-top: 8px;
-
+  margin-top: 5px;
+  height: 30px;
+  width: 85px;
+  cursor: pointer;
 }
 
 .publish-date {
@@ -140,7 +142,7 @@
   margin: 0 auto;
   font-size: 14px;
   color: #696464;
-  font-family: serif;  
+  font-family: serif;
   text-align: left;
 }
 
@@ -164,12 +166,65 @@
   margin-bottom: 5px;
 }
 
+.comment-buttom {
+  background-color: #3c70a4;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  height: 30px;
+  width: 220px;
+  float: left;
+  margin: 20px 20px 20px 20px;
+  cursor: pointer;
+}
+
+
 #bicep {
   display: block;
   width: 45vw;
   min-width: 400px;
   margin: 0 auto;
 }
+
+.editors-pick{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.editors-pick hr{
+  width: 800px;
+}
+
+.editors1{
+  display: inline-block;
+}
+
+.editors2{
+  display: inline-block;
+}
+
+.editors3{
+  display: inline-block;
+}
+
+.editors-pick header{
+  margin-top: 200px;
+  font-weight: bold;
+}
+
+.editors-img{
+  width: 350px;
+  height: 250px;
+  cursor: pointer;
+}
+
+.editors-des{
+  margin: 0 auto;
+  font-size: 12px;
+}
+
 
 .infograph {
   width: 1050px;
@@ -208,4 +263,8 @@
   margin-right: 5px;
   width: 250px;
   height: 200px;
+}
+
+.bottom-bar{
+  margin-top: 100px;
 }
