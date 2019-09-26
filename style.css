@@ -323,3 +323,21 @@
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+.editor-side {
+  float: right;
+  margin-top: 500px;
+  width: 25%;
+}
+
+.editor-side img {
+  display: inline-block;
+  width: 150px;
+}
+
+.editor-side span {
+  width: 150px;
+  float: right;
+  font-weight: bold;
+  margin-top: 25px;
+}
