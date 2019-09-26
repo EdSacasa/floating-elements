@@ -11,7 +11,7 @@
 }
 
 .nav-bar {
-  border-bottom: 1px #D8D8D8 solid;
+  border-bottom: 1px #d8d8d8 solid;
   background: white;
   height: 40px;
 }
@@ -172,7 +172,7 @@
   min-width: 400px;
   margin: 0 auto;
   margin-bottom: 25px;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .first {
@@ -199,7 +199,6 @@
   margin: 20px 20px 20px 20px;
   cursor: pointer;
 }
-
 
 #bicep {
   display: block;
@@ -245,7 +244,6 @@
   margin: 0 auto;
   font-size: 12px;
 }
-
 
 .infograph {
   width: 1050px;
