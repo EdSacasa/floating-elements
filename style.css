@@ -259,6 +259,11 @@
   margin-left: 100px;
 }
 
+.suggest h2 {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .suggest hr {
   width: 800px;
 }
@@ -267,33 +272,57 @@
   display: inline-block;
   width: 250px;
   height: 350px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .suggest2 {
   display: inline-block;
   width: 250px;
   height: 350px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .suggest3 {
   display: inline-block;
   width: 250px;
   height: 350px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .suggest4 {
   display: inline-block;
   width: 250px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .suggest5 {
   display: inline-block;
   width: 250px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .suggest6 {
   display: inline-block;
   width: 250px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .suggest header {
